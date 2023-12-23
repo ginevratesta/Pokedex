@@ -9,9 +9,9 @@ function fetchPokemonData() {
       .then(pokemonData => {
         console.log(pokemonData)
         pokedex.innerHTML += `
-          <div class="col-3">
+          <div class="col-12 col-sm-12 col-md-4 col-lg-3 d-flex flex-column align-items-center">
             <img src="${pokemonData.sprites.front_default}" alt="${pokemonData.name}"/>
-            <p>Pokemon: ${pokemonData.name}</p>
+            <p>Pokemon: ${pokemonData.name.toUpperCase()}</p>
             <p>Type: ${pokemonData.types[0].type.name}</p>
           </div>
         `;
