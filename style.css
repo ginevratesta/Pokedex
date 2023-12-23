@@ -1,0 +1,24 @@
+.nav{
+    background-color: #6388F7;
+    border-bottom: 4px solid darkblue;
+}
+
+.region{
+    background-color: #87DAF2;
+    border: 3px solid darkblue;
+    border-radius: 20px;
+}
+
+.region img{
+    width: 20px;
+    height: 20px;
+}
+
+.pokedex{
+    width: 100%;
+    height: 80vh;
+    background-image: url(./assets/pokedex-back.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100% 100%;
+}
