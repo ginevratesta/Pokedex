@@ -1,79 +1,82 @@
-body{
-    height: 90vh;
+body {
+  height: 90vh;
 }
 
-.nav{
-    border-bottom: 4px solid #363E41;
-    background-color: #277ECD;
+.nav {
+  border-bottom: 4px solid #363e41;
+  background-color: #277ecd;
 }
 
-.region{
-    background-color: #87DAF2;
-    border: 3px solid #363E41;
-    border-radius: 20px;
+.region {
+  background-color: #65c9f9;
+  border: 3px solid #363e41;
+  border-radius: 20px;
 }
 
-.region img{
-    width: 20px;
-    height: 20px;
+.region img {
+  width: 20px;
+  height: 20px;
 }
 
-.pokedex{
-    width: 100%;
-    height: 100%;
-    background-image: url(./assets/b.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 100% 100%;
+.pokedex {
+  width: 100%;
+  height: 100%;
+  background-image: url(./assets/b.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 100%;
 }
 
-.yellow{
-    width: 65%;
-    aspect-ratio: 2/1;
-    border: 10px solid #FDE454;
-    border-radius: 25px;
+.yellow {
+  width: 65%;
+  aspect-ratio: 2/1;
+  border: 10px solid #fde454;
+  border-radius: 25px;
 }
 
-.img-box{
-    background-image: url(./assets/img-box-backg.jpeg);
-    background-size: cover;
-    border: 5px solid #47A2F7;
-    border-radius: 15px;
+.img-box {
+  background-image: url(./assets/img-box-backg.jpeg);
+  background-size: cover;
+  border: 5px solid #47a2f7;
+  border-radius: 15px;
 }
 
-.img-box img{
-    object-fit: cover;
+.img-box img {
+  object-fit: cover;
 }
 
-#poke-carousel{
-    height: 90vh;
-    overflow: scroll;
+#poke-carousel {
+  height: 90vh;
+  overflow: scroll;
 }
 
-.poke-card{
-    background-color: #FDE9B4;
-    border-top-left-radius: 40px;
-    border-bottom-left-radius: 40px;
+.poke-card {
+  background-color: #fde9b4;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
 }
 
-.carousel-pokeball{
-    width: 25px;
-    aspect-ratio: 1/1;
+.carousel-pokeball {
+  width: 25px;
+  aspect-ratio: 1/1;
 }
 
-.carousel-img{
-    width: 60px;
-    aspect-ratio: 1/1;
+.carousel-img {
+  width: 60px;
+  aspect-ratio: 1/1;
 }
 
-.footer{
-    background-color: #277ECD;
-    font-size: 15px;
+.selected {
+  background-color: orange;
 }
 
-.round-letter{
-    background-color: #686165;
-    border-radius: 50%;
-    padding-inline: 5px;
+.footer {
+  background-color: #277ecd;
+  font-size: 15px;
 }
 
+.round-letter {
+  background-color: #686165;
+  border-radius: 50%;
+  padding-inline: 5px;
+}
