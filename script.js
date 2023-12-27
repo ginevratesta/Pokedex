@@ -34,7 +34,7 @@ function fetchPokemonData() {
               }" alt="${pokemonData.name}"/>
             </div>
             <div>
-              <p class="pt-3">${pokemonData.name.toUpperCase()}</p>
+              <p class="pt-3">${pokemonData.name.charAt(0).toUpperCase() + pokemonData.name.slice(1)}</p>
             </div>
           </div>
         `;
