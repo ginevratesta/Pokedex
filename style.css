@@ -16,9 +16,33 @@
 
 .pokedex{
     width: 100%;
-    height: 80vh;
+    height: 85vh;
     background-image: url(./assets/pokedex-back.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 100% 100%;
+}
+
+.yellow{
+    border: 10px solid #FDE454;
+    border-radius: 25px;
+}
+
+.img-box{
+    width: 500px;
+    height: 450px;
+    background-image: url(./assets/img-box-backg.jpeg);
+    background-size: cover;
+    border: 5px solid #47A2F7;
+    border-radius: 15px;
+}
+
+#poke-carousel{
+    overflow: hidden;
+}
+
+.poke-card{
+    background-color: #FDE9B4;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
